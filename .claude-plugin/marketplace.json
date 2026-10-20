@@ -1,0 +1,19 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "Michał Stankiewicz"
+  },
+  "metadata": {
+    "description": "Skills and mods for Claude Code and claude.ai, published as plugins.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agent-orchestrator",
+      "source": "./plugins/agent-orchestrator",
+      "description": "Splits large or multi-part tasks between named subagents and picks each agent's model and effort to match the difficulty of its subtask.",
+      "version": "1.0.0",
+      "category": "productivity"
+    }
+  ]
+}
